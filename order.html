@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta name="format-detection" content="telephone=no, email=no">
     <title>填写订单</title>
-    <link rel="stylesheet" href="style/make.css">
+    <link rel="stylesheet" href="style/order.css">
 </head>
 <body>
     <div class="header">
@@ -40,15 +40,17 @@
                     <label>积分优惠</label>
                     <span id="pointsPrice">-0.00 RMB</span>
                 </p>
-                <a href="javascript:;">修改优惠</a>
+                <a href="javascript:;" id="changePriBtn">修改优惠</a>
             </div>
-            <p class="order-price-item">
-                <label>支付金额</label>
-                <span id="payPrice">150.00 RMB</span>
-            </p>
+            <div class="order-price-bottom">
+                <p class="order-price-item">
+                    <label>支付金额</label>
+                    <span id="payPrice">150.00 RMB</span>
+                </p>
+            </div>
         </div>
 
-        <h2><i class="user-icon"> </i>联系人信息</h2>
+        <h2 class="user-tit"><i class="user-icon"> </i>联系人信息</h2>
         <div class="receive-info">
             <div class="receive-item">
                 <label for="receiverName"><i class="person-icon"> </i>姓名</label>
@@ -59,9 +61,11 @@
                 <input type="tel" id="receiverPhone" name="receiverPhone">
             </div>
             <div class="receive-item">
-                <label for="selectProvince"><i class="earth-icon"> </i>所在地区</label>
-                <select id="selectProvince"></select>
-                <select id="selectCity"></select>
+                <label><i class="earth-icon"> </i>所在地区</label>
+                <div id="areaSelect">
+                    <select class="prov"></select>
+                    <select class="city" disabled="disabled"></select>
+                </div>
             </div>
             <div class="receive-item">
                 <label for="receiverAddress"><i class="location-icon"> </i>详细地址</label>
@@ -71,11 +75,12 @@
 
         <p class="tip">提示：请选择正确所在区域</p>
 
-        <a id="submitBtn" href="">提交订单</a>
+        <a id="submitBtn" href="javascript:;">提交订单</a>
     </form>
 
     <script src="js/zepto.js"></script>
     <script src="js/gmu.merge.js"></script>
+    <script src="js/jquery.cityselect.js"></script>
     <script src="js/order.js"></script>
 </body>
 </html>

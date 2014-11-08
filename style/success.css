@@ -1,0 +1,80 @@
+body,div,span,img,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,textarea,select,option,fieldset,legend,p,th,td{margin:0; padding:0;}
+fieldset,img {border: 0;}
+a{text-decoration:none; color:#252525;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.clear{clear:both;}
+ul,li{list-style:none;}
+body{ font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    color:#252525; font-size:14px; line-height:20px; -webkit-user-select:none;
+    background-color: #fbf7ed;
+}
+.header{
+    background-color: #4abdcc;
+    box-shadow: 0 3px 2px #999;
+    height: 40px;
+    position: relative;
+}
+.header h1{
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.header-btn{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 11px;
+    display: block;
+    background-size: 18px 18px;
+}
+.prev-page{
+    background-image:url("../img/prev-arr.png");
+    left: 4.7%;
+}
+.next-page{
+    background-image:url("../img/next-arr.png");
+    right: 4.7%;
+}
+
+.main-content{
+    padding: 20px 15px;
+    background-color: #fbf7ed;
+}
+.success-icon{
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+}
+.order-status{
+    text-align: center;
+    padding: 0 20px;
+    color: #6b6a69;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+.order-status a{
+    color: #4abdcc;
+    text-decoration: underline;
+}
+
+.share-text{
+    color: #6b6a69;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#shareBtn{
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4abdcc;
+    border-radius: 23px;
+    border: 1px solid #2e9dab;
+}

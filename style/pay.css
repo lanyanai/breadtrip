@@ -1,0 +1,127 @@
+body,div,span,img,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,input,textarea,select,option,fieldset,legend,p,th,td{margin:0; padding:0;}
+fieldset,img {border: 0;}
+a{text-decoration:none; color:#252525;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+.clear{clear:both;}
+ul,li{list-style:none;}
+body{ font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    color:#252525; font-size:14px; line-height:20px; -webkit-user-select:none;
+    background-color: #fbf7ed;
+}
+.header{
+    background-color: #4abdcc;
+    box-shadow: 0 3px 2px #999;
+    height: 40px;
+    position: relative;
+}
+.header h1{
+    color: #fff;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.header-btn{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 11px;
+    display: block;
+    background-size: 18px 18px;
+}
+.prev-page{
+    background-image:url("../img/prev-arr.png");
+    left: 4.7%;
+}
+.next-page{
+    background-image:url("../img/next-arr.png");
+    right: 4.7%;
+}
+
+.main-content{
+    padding: 20px 15px;
+    background-color: #fbf7ed;
+}
+.main-content h2{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c9c9c9;
+    font-size: 20px;
+    color: #4abdcc;
+    line-height: 30px;
+}
+.order-tit{
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.order-tit h3{
+    line-height: 46px;
+    font-size: 16px;
+    color: #5c5c5c;
+    padding: 0 10px;
+    height: 46px;
+    overflow: hidden;
+    border-bottom: 1px solid #c9c9c9;
+}
+.order-tit .order-item{
+    overflow: hidden;
+    height: 46px;
+    border-bottom: 1px solid #c9c9c9;
+    line-height: 46px;
+}
+.order-tit .order-item:last-child{
+    border-bottom:none;
+}
+.order-item label{
+    display: block;
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid #c9c9c9;
+    color: #5c5c5c;
+    font-size: 14px;
+}
+.order-item span{
+    display: block;
+    float: left;
+    width: 66.6%;
+    height: 46px;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #999;
+}
+.total-price{
+    margin: 20px;
+    font-size: 14px;
+    line-height: 26px;
+}
+#totalPrice{
+    color: #999;
+    font-weight: bold;
+    font-size: 16px;
+}
+.main-content h3{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pay-list{
+    margin: 10px 0 20px;
+    overflow: hidden;
+}
+.pay-list li{
+    width: 33.3%;
+    float: left;
+}
+.pay-list li a{
+    display: block;
+}
+.pay-list img{
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+}

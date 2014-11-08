@@ -5,6 +5,7 @@ a{text-decoration:none; color:#252525;-webkit-tap-highlight-color: rgba(0,0,0,0)
 ul,li{list-style:none;}
 body{ font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
     color:#252525; font-size:14px; line-height:20px; -webkit-user-select:none;
+    background-color: #fbf7ed;
 }
 .header{
     background-color: #4abdcc;
@@ -33,4 +34,270 @@ body{ font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
 .next-page{
     background-image:url("../img/next-arr.png");
     right: 4.7%;
+}
+
+.title-part{
+    padding: 20px 5%;
+    background-color: #fbfbfb;
+}
+.title-part h2{
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 5px;
+    color: #4abdcc;
+}
+.travel-time{
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+}
+.main-content{
+    background-color: #fbf7ed;
+    overflow: hidden;
+}
+
+.state-bar{
+    overflow: hidden;
+    box-shadow: 0 3px 2px #999;
+    position: relative;
+}
+.check-all{
+    width: 30%;
+    line-height: 44px;
+    background-color: #4abdcc;
+    height: 44px;
+    float: left;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+}
+.check-icon{
+    padding: 10px;
+    margin:0 10px;
+    background: url("../img/uncheck.png") center no-repeat;
+    background-size: 20px 20px;
+}
+.checked .check-icon{
+    background-image: url("../img/check.png");
+}
+.state{
+    line-height: 44px;
+    height: 44px;
+    background-color: #fff;
+    float: left;
+    width: 65%;
+    padding-left: 5%;
+}
+.help-link{
+    position: absolute;
+    display: block;
+    top: 12px;
+    right: 12px;
+    width: 20px;
+    height: 20px;
+    background: url("../img/help-icon.png") center no-repeat;
+    background-size: 20px 20px;
+}
+.checked-num{
+    color: #4abdcc;
+    display: inline-block;
+    padding: 0 3px;
+}
+.univalent{
+    color: #4abdcc;
+    font-size: 20px;
+    display: inline-block;
+    padding: 0 3px;
+    font-weight: bold;
+}
+
+.day-list{
+    padding: 20px;
+}
+.day-item{
+    margin-top: 20px;
+}
+.day-head{
+    font-size: 14px;
+    line-height: 16px;
+    color: #a8915e;
+}
+.day-icon{
+    background: url("../img/time-pint.png") center no-repeat;
+    background-size: 16px 16px;
+    padding: 8px;
+    margin:0 5px 0 5px;
+}
+.day-part{
+    background: url("../img/timeline.jpg") 11px top repeat-y;
+    background-size: 4px 1px;
+    padding: 20px 0 0;
+}
+.day-tit{
+    position: relative;
+    height: 50px;
+    background-color: #fff;
+}
+.day-check{
+    height: 50px;
+    width: 50px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url("../img/flight.png") center no-repeat #4abdcc;
+    background-size: 22px 12px;
+}
+.day-check .check-icon{
+    position: absolute;
+    left: -10px;
+    top: 15px;
+    margin: 0;
+}
+.day-text{
+    margin-left: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    height: 50px;
+}
+.day-text h3{
+    font-size: 18px;
+    float: left;
+    margin:0 10px;
+    color: #5c5c5c;
+}
+.day-text p{
+    color: #999;
+    font-size: 12px;
+}
+
+.pic-list{
+
+}
+.pic-item{
+    margin-top: 20px;
+    position: relative;
+    height: 100px;
+    background-color: #fff;
+}
+.trip-pic{
+    height: 100px;
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.pic-item .check-icon{
+    position: absolute;
+    left: -10px;
+    top: 40px;
+    margin: 0;
+}
+.pic-description{
+    margin-left: 100px;
+}
+.pic-text{
+    line-height: 35px;
+    height: 35px;
+    overflow: hidden;
+    padding:0 10px;
+    font-size: 14px;
+    color: #5c5c5c;
+    position: relative;
+}
+.more-detail{
+    background: url("../img/more.png") center no-repeat;
+    background-size: 37px 14px;
+    padding:7px 19px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.pic-time{
+    padding-left: 10px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    height: 20px;
+    overflow: hidden;
+    color: #999;
+}
+.clock-icon{
+    padding: 6px;
+    margin-right: 5px;
+    background: url("../img/trip-time.jpg") center no-repeat;
+    background-size: 12px;
+}
+.pic-address{
+    margin: 0 20px;
+    line-height: 26px;
+    height: 26px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    color: #4abdcc;
+    font-size: 12px;
+}
+.address-icon{
+    background-position: center;
+    background-repeat: no-repeat;
+    display: block;
+    width: 30px;
+    height: 100%;
+    float: left;
+}
+.icon-attraction{
+    background-image: url("../img/icon-attraction.png");
+    background-size: 20px;
+}
+.icon-hotel{
+    background-image: url("../img/icon-hotel.png");
+    background-size: 20px;
+}
+.icon-shopping{
+    background-image: url("../img/icon-shopping.png");
+    background-size: 20px;
+}
+.icon-restaurant{
+     background-image: url("../img/icon-restaurant.png");
+     background-size: 20px;
+ }
+.text-item{
+    margin-top: 20px;
+    background-color: #fff;
+    height: 100px;
+    position: relative;
+}
+.text-item .check-icon{
+    margin: 0;
+    top: 40px;
+    position: absolute;
+    left: -10px;
+}
+.trip-text{
+    padding: 10px 15px 0;
+    margin-bottom: 10px;
+    max-height: 54px;
+    line-height: 18px;
+    position: relative;
+    overflow: hidden;
+    color: #5c5c5c;
+}
+.trip-text .more-detail{
+    right: 20px;
+    bottom: 2px;
+}
+.text-item .pic-time{
+    padding-left: 20px;
+}
+
+#completeBtn{
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    background-color: #4abdcc;
+    border-radius: 23px;
+    border: 1px solid #2e9dab;
 }
