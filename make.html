@@ -63,6 +63,7 @@
                                 <p class="pic-time"><i class="clock-icon"> </i>18:30</p>
                                 <p class="pic-address"><i class="address-icon icon-attraction"> </i>Kjos Park</p>
                             </div>
+                            <input type="hidden" value="">
                         </li>
                         <li class="text-item">
                             <i class="check-icon"></i>
@@ -120,7 +121,12 @@
             </li>
         </ul>
 
-        <a id="completeBtn" href="">制作完成</a>
+        <p class="tip"> </p>
+
+        <form id="submitForm" name="submitForm" action="">
+            <input type="hidden" name="picArr" id="picArr">
+            <a id="completeBtn" href="javascript:;">制作完成</a>
+        </form>
     </div>
 
     <script src="js/zepto.js"></script>

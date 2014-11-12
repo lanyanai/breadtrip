@@ -288,7 +288,13 @@ body{ font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
 .text-item .pic-time{
     padding-left: 20px;
 }
-
+.tip{
+    text-align: center;
+    color: #fc5d7b;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
 #completeBtn{
     display: block;
     margin: 20px auto;

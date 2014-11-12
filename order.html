@@ -22,7 +22,7 @@
             <h3>我的沙巴之旅 游记制作</h3>
             <div class="order-item">
                 <label for="orderNum">购买数量</label>
-                <input type="number" id="orderNum" name="orderNum">
+                <input type="number" id="orderNum" name="orderNum" min="1" value="1">
             </div>
             <div class="order-item">
                 <label>预定价格</label>
@@ -63,8 +63,8 @@
             <div class="receive-item">
                 <label><i class="earth-icon"> </i>所在地区</label>
                 <div id="areaSelect">
-                    <select class="prov"></select>
-                    <select class="city" disabled="disabled"></select>
+                    <select class="prov" id="prov" name="prov"></select>
+                    <select class="city" id="city" name="city" disabled="disabled"></select>
                 </div>
             </div>
             <div class="receive-item">
@@ -73,7 +73,7 @@
             </div>
         </div>
 
-        <p class="tip">提示：请选择正确所在区域</p>
+        <p class="tip"></p>
 
         <a id="submitBtn" href="javascript:;">提交订单</a>
     </form>
