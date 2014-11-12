@@ -15,6 +15,7 @@ $(function(){
             var total = unitPrice * orderNum, pointsPrice = parseFloat($("#pointsPrice").text());
             $("#orderPrice").text(total.toFixed(2) + " RMB");
             $("#payPrice").text((total + pointsPrice).toFixed(2) + "RMB");
+            $("#totalPrice").val((total + pointsPrice).toFixed(2));
         }
     });
     $("#receiverPhone").blur(function(){
